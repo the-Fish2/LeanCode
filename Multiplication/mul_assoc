@@ -1,0 +1,6 @@
+induction c with d hd,
+repeat {rw mul_zero},
+repeat {rw succ_eq_add_one},
+repeat {rw mul_add},
+repeat {rw mul_one},
+rwa [hd],
