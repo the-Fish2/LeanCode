@@ -1,0 +1,3 @@
+repeat {rw ← mul_assoc},
+rw mul_comm b a,
+refl,
