@@ -1,0 +1,20 @@
+For already defined functions
+
+exact h(p),
+
+
+Define number in P and show it applies to Q
+intro n,
+exact n,
+
+Function chaining
+have q : Q := h(p),
+have t : T := j(q),
+have u : U := l(t),
+exact u,
+
+Function chaining w/out arbitrary variables
+apply l,
+apply j,
+apply h,
+exact p,
