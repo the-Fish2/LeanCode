@@ -18,3 +18,7 @@ apply l,
 apply j,
 apply h,
 exact p,
+
+Function P -> (Q -> P)
+intros p q,
+exact p,
