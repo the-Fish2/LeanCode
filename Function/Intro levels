@@ -32,4 +32,10 @@ Level 7
 intros q f p,
 exact f(q(p)),
 
+Level 8
+intros f h p,
+apply h,
+exact f(p),
+
+
 
