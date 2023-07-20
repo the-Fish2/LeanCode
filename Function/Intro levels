@@ -27,3 +27,9 @@ Level 6
 intros f h p,
 apply (f p),
 apply (h p),
+
+Level 7
+intros q f p,
+exact f(q(p)),
+
+
