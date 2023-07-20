@@ -22,3 +22,8 @@ exact p,
 Function P -> (Q -> P)
 intros p q,
 exact p,
+
+Level 6
+intros f h p,
+apply (f p),
+apply (h p),
