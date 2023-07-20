@@ -1,0 +1,6 @@
+7: Same as Function world
+
+8:
+repeat {rw not_iff_imp_false},
+intros p q r,
+exact q(p(r)),
