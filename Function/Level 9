@@ -1,0 +1,5 @@
+intro p,
+have q : E := f2(f1(p)),
+have r : G := f8(f5(q)),
+have s : I := f11(f9(r)),
+exact f15(s),
