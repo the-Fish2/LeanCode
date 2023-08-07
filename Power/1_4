@@ -1,0 +1,26 @@
+1:
+rw pow_zero,
+refl,
+
+
+2:
+rw pow_succ,
+rw mul_zero,
+refl,
+
+
+3:
+rw one_eq_succ_zero,
+rw pow_succ,
+rw pow_zero,
+rw one_mul,
+refl,
+
+4:
+induction m with d hd,
+rw pow_zero,
+refl,
+rw pow_succ,
+rw hd,
+rw mul_one,
+refl,
