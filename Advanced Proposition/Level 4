@@ -1,0 +1,12 @@
+intros h,
+cases h with hpq hqp,
+intro h2,
+split,
+
+intro p,
+cases h2 with m n,
+exact m(hpq(p)),
+
+intro p,
+cases h2 with m n,
+exact hqp(n(p)),
