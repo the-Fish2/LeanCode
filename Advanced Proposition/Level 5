@@ -1,0 +1,21 @@
+intros h,
+rw h,
+intros q,
+exact q,
+
+
+Or
+
+cc,
+
+Or
+
+intros h,
+cases h with hpq hqp,
+intros h2,
+split,
+intro p,
+exact h2.1(hpq(p)),
+
+intro p,
+exact hqp(h2.2(p)),
