@@ -1,0 +1,7 @@
+intro h,
+exfalso,
+
+cases h with h1 h2,
+apply h2,
+apply h1,
+
