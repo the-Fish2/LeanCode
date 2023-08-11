@@ -1,2 +1,2 @@
-have h := succ_inj(hs),
+apply succ_inj,
 exact h,
