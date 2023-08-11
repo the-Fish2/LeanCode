@@ -1,2 +1,2 @@
 apply succ_inj,
-exact h,
+exact hs,
