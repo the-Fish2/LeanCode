@@ -1,0 +1,5 @@
+split,
+apply add_right_cancel,
+intro h,
+rw h,
+refl,
