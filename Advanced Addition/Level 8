@@ -1,0 +1,7 @@
+intro h,
+rw ← add_zero a at h,
+rw add_right_comm a 0 b at h,
+rw add_zero (a + b) at h,
+rw add_left_cancel a b 0,
+refl,
+exact h,
