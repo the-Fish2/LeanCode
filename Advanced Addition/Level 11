@@ -1,0 +1,4 @@
+rw add_comm,
+intro h,
+rw add_left_eq_zero(h),
+refl,
