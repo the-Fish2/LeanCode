@@ -1,0 +1,8 @@
+intros h1 h2 h3,
+cases b with n,
+rw mul_zero at h3,
+exact h2(h3),
+rw mul_succ at h3,
+have h4 := add_left_eq_zero(h3),
+exact h1(h4),
+
