@@ -1,0 +1,10 @@
+cases b,
+right,
+refl,
+
+rw mul_succ at h,
+left,
+have h3 := add_left_eq_zero(h),
+exact h3,
+
+
